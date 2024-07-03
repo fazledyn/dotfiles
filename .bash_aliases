@@ -11,5 +11,17 @@ alias cmd='gnome-terminal'
 alias psa='ps -a'
 alias e='exit'
 
-# Custom
+# Others
+alias warp='warp-cli'
+alias nano='nano -l -T 4'
+alias less='less -N'
 
+hgrep() {
+    history | grep $1
+}
+
+# Methods
+alias flush_dns='sudo resolvectl flush-caches'
+
+# Temp
+alias pyenv='source ~/.local/env/bin/activate'
