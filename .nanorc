@@ -1,0 +1,11 @@
+# The GNU Nano Configuration File
+
+# convert tab to space
+set tabsize 4
+set tabstospaces
+
+# show line number
+set linenumbers
+
+# wrap lines
+set softwrap
