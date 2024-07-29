@@ -22,6 +22,8 @@ hgrep() {
 
 # Methods
 alias flush_dns='sudo resolvectl flush-caches'
-
-# Temp
 alias pyenv='source ~/.local/env/bin/activate'
+
+# Host
+## Home
+laptop='root@192.168.1.106'
