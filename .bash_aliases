@@ -22,7 +22,9 @@ hgrep() {
 
 # Methods
 alias flush_dns='sudo resolvectl flush-caches'
+alias upgrade='sudo apt update && sudo apt upgrade'
 alias pyenv='source ~/.local/env/bin/activate'
+
 
 # Host
 ## Home
