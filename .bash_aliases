@@ -12,20 +12,15 @@ alias psa='ps -a'
 alias e='exit'
 
 # Others
-alias warp='warp-cli'
+alias warpon='warp-cli connect'
+alias warpoff='warp-cli disconnect'
+
 alias nano='nano -l -T 4'
 alias less='less -N'
 
-hgrep() {
-    history | grep $1
-}
+hgrep(){ history | grep $1 }
+fgrep(){ find . | grep $1 }
 
-# Methods
 alias flush_dns='sudo resolvectl flush-caches'
 alias upgrade='sudo apt update && sudo apt upgrade'
 alias pyenv='source ~/.local/env/bin/activate'
-
-
-# Host
-## Home
-laptop='root@192.168.1.106'
