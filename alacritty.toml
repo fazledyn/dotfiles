@@ -1,0 +1,44 @@
+# IMPORTANT
+# Clone the themes to '~/.config/alacritty/' directory
+# Repo: https://github.com/alacritty/alacritty-theme
+
+import = [
+#    "~/.config/alacritty/themes/themes/papercolor_dark.toml"
+#    "~/.config/alacritty/themes/themes/tomorrow_night.toml"
+    "~/.config/alacritty/themes/themes/dracula_plus.toml"
+#    "~/.config/alacritty/themes/themes/enfocado_dark.toml"
+]
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+opacity = 1.0
+
+[window.padding]
+x = 5
+y = 5
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "JetBrainsMono"
+style = "Medium"
+
+[font.bold]
+family = "JetBrainsMono"
+style = "Heavy"
+
+[font.bold_italic]
+family = "JetBrainsMono"
+style = "Heavy Italic"
+
+[font.italic]
+family = "JetBrainsMono"
+style = "Medium Italic"
+
+
+
