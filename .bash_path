@@ -5,6 +5,9 @@
 export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
+# terminal colors
+export TERM=xterm-256color
+
 # PATH="$PATH:/location"
 # PATH="$PATH:/location"
 
