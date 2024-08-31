@@ -1,0 +1,139 @@
+konflux-ci/e2e-tests	1119	closed	fix: added channel to handle concurrency bug	needs-ok-to-test, needs-rebase, < 1 min	2024-06-21T08:19:22Z
+bytedance/nxt_unit	19	open	BUGFIX: Fixed Regex for `getPackRelativePath` method		2024-03-07T10:31:41Z
+kubernetes/kubernetes	123748	closed	Removed Useless `AddFlags` statements from options.go	kind/cleanup, sig/api-machinery, size/XS, release-note-none, cncf-cla: yes, lifecycle/rotten, ok-to-test, needs-priority, triage/accepted	2024-08-09T22:20:54Z
+siderolabs/talos	8231	merged	chore: fix channel blocking on qemu launch		2024-02-02T15:29:43Z
+siderolabs/talos	8230	closed	BUGFIX: Added cancel method to fix context leak		2024-02-01T10:17:01Z
+pipe-cd/pipecd	4767	merged	BUGFIX: Added cancel method to fix context leak	area/go	2024-02-15T13:59:03Z
+kubeflow/spark-operator	1917	merged	BUGFIX: Added cancel method to fix context leak	lgtm, approved	2024-04-06T17:34:25Z
+dapr/dapr	7381	merged	BugFix: Fixed Concurrency Issue in file `pkg/actors/actors.go`		2024-01-15T14:02:49Z
+bytedance/Elkeid	571	open	BugFix: Fixed Improper Method Calls		2024-01-12T06:21:44Z
+bytedance/go-tagexpr	78	closed	BugFix: Fixed Inappropriate Logical Expression		2024-01-12T09:38:40Z
+bytedance/go-tagexpr	77	open	BugFix: Fixed Unsafe Zip Deserialization		2024-01-10T10:57:36Z
+bytedance/nxt_unit	18	open	Fixed Concurrency Issue: channel communication of `RetryDo`		2024-01-03T07:26:15Z
+bytedance/nxt_unit	17	open	Fixed Inappropriate Logical Expression		2024-01-03T06:07:11Z
+espressif/esp-dl	150	merged	Fixed Inappropriate Logical Expression (AIV-672)		2023-12-28T12:38:13Z
+apache/tvm	16272	merged	[BugFix] Fixed Inappropriate Logical Expression		2023-12-26T21:19:17Z
+Mathics3/mathics-core	954	merged	Fixed Inappropriate Logical Expression		2023-12-22T18:46:39Z
+kubernetes/kube-openapi	441	merged	Use better API for string comparison	cncf-cla: yes, lgtm, size/XS, approved	2024-01-03T16:01:19Z
+kubernetes/kubeadm	2983	merged	Fixed Concurrency Issue: channel communication of kinder	priority/backlog, kind/cleanup, cncf-cla: yes, lgtm, size/XS, approved, ok-to-test, area/kinder	2024-01-01T19:27:59Z
+kubernetes/kubernetes	122315	merged	Fixed Inappropriate Logical Expression	kind/cleanup, lgtm, sig/node, size/XS, release-note-none, approved, cncf-cla: yes, priority/important-longterm, ok-to-test, triage/accepted	2023-12-21T09:31:23Z
+pass-culture/pass-culture-main	9625	closed	Introduced a Safer FTP Alternative: `FTP_TLS`		2023-12-18T10:24:23Z
+Nuitka/Nuitka	2607	merged	Fixed Improper Method Call: Replaced `NotImplementedError`	enhancement	2023-12-13T10:58:31Z
+Nuitka/Nuitka	2605	merged	Fixed Improper Method Call: Replaced `mktemp`		2023-12-13T11:26:22Z
+rhinstaller/anaconda	5375	merged	Fixed Sensitive Data Exposure at `/tmp` directory	f40	2024-01-10T09:48:33Z
+Alignak-monitoring/alignak	1133	open	Fixed Sensitive Data Exposure: Reset `umask`		2023-12-12T09:24:33Z
+RedHatInsights/insights-core	3975	merged	Fixed Improper Method Call: `__str__`		2023-12-13T07:17:48Z
+OSGeo/grass-addons	993	merged	v.civil: Fixed Improper Method Call: `__setitem__`	bug	2024-01-08T16:04:35Z
+aio-libs/aiohttp	7956	open	Fixed Inappropriate Logical Expression	bot:chronographer:provided, backport-3.10	2024-03-19T08:20:11Z
+PaddlePaddle/Paddle	59886	merged	Fixed Inappropriate Logical Expression	contributor	2023-12-12T03:25:35Z
+ansible/ansible	82392	closed	Fixed Inappropriate Logical Expression	needs_revision, bug	2024-01-08T14:00:05Z
+cve-search/cve-search	1031	merged	Fixed Inappropriate Logical Expression		2023-12-11T13:52:05Z
+diyhue/diyHue	974	merged	Fixed Inappropriate Logical Expression		2023-12-08T17:58:54Z
+autorope/donkeycar	1152	closed	Fixed Inappropriate Logical Expression		2023-12-08T12:03:56Z
+gethue/hue	99	closed	Fixed Inappropriate Logical Expression	Stale	2024-02-03T02:00:46Z
+WheatonCS/Lexos	1072	open	Fixed Inappropriate Logical Expression		2023-12-08T11:37:33Z
+modmail-dev/Modmail	3321	open	Fixed Inappropriate Logical Expression		2023-12-08T11:22:03Z
+Open-MSS/MSS	2113	merged	fix: Fixed Inappropriate Logical Expression		2023-12-08T13:42:41Z
+holoviz/panel	6012	merged	Fixed Inappropriate Logical Expression		2023-12-10T15:23:37Z
+Nandaka/PixivUtil2	1315	merged	Fixed Inappropriate Logical Expression		2023-12-11T12:45:09Z
+PokemonGoF/PokemonGo-Bot	6320	open	Fixed Inappropriate Logical Expression		2023-12-07T12:57:08Z
+TheAlgorithms/Python	11203	merged	Fixed Inappropriate Logical Expression		2024-01-16T08:43:34Z
+spack/spack	41482	merged	Fixed Inappropriate Logical Expression	core	2023-12-07T16:38:55Z
+ME-ICA/tedana	1012	merged	Fixed Inappropriate Logical Expression		2023-12-19T20:29:45Z
+celery/kombu	1828	merged	Fixed Improper Method Call: Replaced `mktemp`		2023-12-06T12:41:14Z
+gramps-project/gramps	1623	open	Fixed Improper Method Call: `__enter__` and `__exit__`	Code Quality	2024-02-07T21:54:10Z
+Checkmk/checkmk	652	closed	Fixed Improper Method Call: Replaced `NotImplementedError`	enhancement, tracked	2024-06-10T06:59:41Z
+bumps/bumps	131	merged	Fixed Improper Method Call: `__getitem__`		2023-12-15T17:01:20Z
+PyMVPA/PyMVPA	635	open	Fixed Improper Method Call: `__neg__`		2023-12-05T11:34:24Z
+PyMVPA/PyMVPA	634	open	Fixed Improper Method Call: Replaced `mktemp`		2023-12-05T11:30:33Z
+googleapis/python-bigquery-dataframes	258	merged	fix: replaced raise `NotImplementedError` with return `NotImplemented`	api: bigquery, size: xs	2023-12-12T20:32:55Z
+Qiskit/qiskit	11371	open	Fixed Improper Method Call: Replaced `NotImplementedError`	Community PR	2023-12-05T10:38:16Z
+SCons/scons	4448	merged	Fixed Improper Method Call: Replaced `NotImplementedError`	Variables	2023-12-06T16:02:50Z
+radio-astro-tools/spectral-cube	896	closed	Fixed Improper Method Call: Replaced `NotImplementedError`		2023-12-08T14:22:29Z
+radio-astro-tools/spectral-cube	895	open	Fixed Improper Method Call: Replaced `mktemp`		2023-12-18T05:41:48Z
+isard-vdi/isard	449	open	Fixed Improper Method Call: Updated `__exit__`		2023-12-04T11:56:19Z
+imageio/imageio	1055	merged	Fixed Improper Method Call: Replaced `mktemp`		2023-12-05T07:46:33Z
+openedx/edx-platform	33874	open	Fixed Improper Method Call: Replaced `mktemp`	open-source-contribution, needs test run	2024-08-23T20:45:27Z
+Parsl/parsl	2969	open	Introduced Safer FTP Alternative: Added `FTP_TLS`		2023-11-28T11:37:42Z
+motioneye-project/motioneye	2877	open	Introduced Safer FTP Alternative: Added `FTP_TLS`	enhancement, security	2023-12-21T16:43:38Z
+mlflow/mlflow	10469	open	Introduced Safer FTP Alternative: Added `FTP_TLS`	rn/feature, area/artifacts	2023-11-21T07:43:55Z
+GeotrekCE/Geotrek-admin	3837	open	Introduced Safer FTP Alternative: Added `FTP_TLS`	💫 Improvements	2024-03-06T08:18:18Z
+jertel/elastalert2	1313	closed	Introduced Safer SMTP Alternative: Added `SMTP_SSL`		2024-02-24T02:05:27Z
+facebookresearch/Detectron	1048	open	Introduced Safer SMTP Alternative: Added `SMTP_SSL`	CLA Signed	2023-11-20T11:05:55Z
+conan-io/conan	15137	merged	Introduced Safer FTP Alternative: Added `FTP_TLS`		2023-12-19T11:45:10Z
+mediacloud/backend	846	open	Introduced Safer SMTP Alternative: Added `SMTP_SSL`		2023-11-20T07:57:57Z
+autotest/autotest	1083	open	Introduced Safer SMTP Alternative: Added `SMTP_SSL`		2023-11-20T07:22:50Z
+arskom/spyne	702	open	Introduced Safer SMTP Alternative: Added `SMTP_SSL`		2023-11-20T06:06:06Z
+ros-infrastructure/bloom	711	open	Fixed Inappropriate Logic: Removed logical short circuit		2023-11-17T05:56:18Z
+sqlalchemy/sqlalchemy	10648	closed	Fixed Improper Method Call: Removed `NotImplementedError`		2024-05-02T23:25:32Z
+sympy/sympy	25907	open	Fixed Improper Method Call: Replaced `NotImplementedError`		2023-12-04T07:32:14Z
+wntrblm/nox	749	merged	Fixed Improper Method Call: Replaced `NotImplementedError`		2024-02-20T15:13:19Z
+phoebe-project/phoebe2	795	merged	Fixed Improper Method Call: Replaced `NotImplementedError`		2023-11-17T12:47:14Z
+tomerfiliba/plumbum	667	open	Fixed Improper Method Call: Replaced `NotImplementedError`		2024-04-29T05:24:49Z
+osm-fr/osmose-backend	2071	merged	Fixed Improper Method Call: Replaced `NotImplementedError`		2023-11-21T16:14:44Z
+ParmEd/ParmEd	1330	open	Fixed Improper Method Call: Replaced `NotImplementedError`		2023-11-14T10:50:12Z
+getpelican/pelican-plugins	1394	open	Fixed Improper Method Call: Replaced `NotImplementedError`		2023-11-14T10:21:56Z
+PlasmaPy/PlasmaPy	2402	merged	Fixed Improper Method Call: `__exit__()`	plasmapy.plasma, packaging, bugfix	2024-05-14T23:07:20Z
+scylladb/scylla-cluster-tests	6795	merged	Fixed Improper Method Call: Replaced `mktemp`		2023-11-13T18:55:19Z
+CenterForOpenScience/SHARE	814	open	Fixed Improper Method Call: Replaced `NotImplementedError`		2023-11-13T10:01:36Z
+SpikeInterface/spikeinterface	2195	merged	Fix improper method call mktemp	enhancement, extractors, generators	2023-11-22T13:42:53Z
+projecthamster/hamster	737	merged	Fixed Improper Method Call: Replaced `NotImplementedError`		2023-11-16T13:11:00Z
+gnowledge/gstudio	2032	open	Fixed Improper Method Call: Replaced `mktemp`		2023-11-13T07:49:12Z
+google-parfait/tensorflow-federated	4273	open	Fixed Improper Method Call: Replaced `NotImplementedError`		2023-11-13T07:20:01Z
+ParmEd/ParmEd	1328	merged	Fixed Improper Method Call: Replaced `mktemp`		2024-01-18T19:45:35Z
+nipy/nipy	552	merged	ENH: Replace saving mayavi figure to a temporary file with mlab.screenshot()		2023-11-23T00:11:01Z
+FEniCS/ffcx	636	merged	Fixed Improper Method Call: `__eq__` and `__ne__`		2023-11-15T14:49:43Z
+OCR-D/core	1130	closed	Fixed Improper Method Call: Modified `__exit__()`		2023-11-13T16:18:51Z
+OCA/reporting-engine	809	merged	Fixed Improper Method Call: Replaced `mktemp`	merged 🎉	2023-12-08T07:52:29Z
+autotest/tp-qemu	3869	open	Fixed Improper Method Call: Replaced `mktemp`		2023-11-08T12:08:18Z
+ceph/teuthology	1898	merged	Fixed Improper Method Call: Replaced `mktemp`		2024-07-02T10:14:44Z
+pwndbg/pwndbg	1932	closed	Fixed Improper Method Call: Replaced `mktemp`		2023-11-12T03:36:20Z
+red-hat-storage/ocs-ci	8816	closed	Fixed Improper Method Call: Replaced `mktemp`	size/XS, lifecycle/stale	2024-03-08T20:04:46Z
+datalad/datalad	7534	open	Fixed Improper Method Call: Replaced `mktemp`	semver-patch	2023-11-10T08:48:43Z
+jisaacks/GitGutter	578	closed	Fixed Improper Method Call: Replaced `mktemp`		2023-11-08T17:30:50Z
+dimagi/commcare-hq	33725	merged	Fixed Improper Method Call: Replaced `mktemp`		2023-11-14T19:21:13Z
+cloudify-cosmo/cloudify-manager	4338	open	Fixed Improper Method Call: Replaced `mktemp`		2023-11-08T06:01:25Z
+spcl/dace	1428	merged	Fixed Improper Method Call: Replaced `mktemp`		2023-11-11T11:28:16Z
+dimagi/commcare-cloud	6163	open	Fixed Improper Method Call: Replaced `mktemp`		2023-11-07T12:07:02Z
+autotest/autotest	1082	open	Fixed Improper Method Call: Replaced `mktemp`		2023-11-07T10:57:42Z
+autotest/autotest	1081	open	Fixed Improper Method Call: `mkstemp`		2023-11-07T09:10:02Z
+BRCAChallenge/brca-exchange	1470	closed	Fixed an Improper Method Call: Replaced `mktemp` with `mkstemp`		2023-11-07T21:39:49Z
+wandb/wandb	6541	open	fix(sdk): Added `START_TIME` field to resolve `__all__`	contrib, cc-fix	2024-08-15T22:45:38Z
+geopython/pycsw	918	merged	Added FTP Secure as an option		2023-11-07T07:08:03Z
+geopython/pycsw	917	merged	Added SMTP_SSL option with authentication		2023-11-08T07:44:06Z
+openrefactory/alpha-omega	1	closed	Fixed a typo		2023-11-29T05:01:50Z
+F5Networks/f5-ansible	2377	open	Fixed inappropriate logic		2023-10-27T08:11:19Z
+mailpile/Mailpile	2321	merged	Fixed inappropriate logical expression		2023-11-01T17:23:19Z
+candlepin/subscription-manager	3348	merged	Fixed inappropriate logical expression		2023-10-27T11:09:07Z
+invesalius/invesalius3	679	merged	Replaced `mktemp` with `mkstemp`		2023-11-06T20:58:32Z
+ClusterLabs/crmsh	1262	open	Fix Improper Method Call (Close file descriptors to prevent leaks)		2023-11-08T01:40:06Z
+mkorpela/pabot	557	open	Fix: Improper Method Call (Replace mktemp with mkstemp)		2023-10-23T09:13:25Z
+oils-for-unix/oils	1750	closed	Replaced `mktemp` with `mkstemp`		2023-10-24T02:18:16Z
+nasa-gibs/onearth	177	merged	Introduce a safer SMTP alternative: SMTP_SSL (Weak Cryptography Issue)		2023-10-23T19:01:33Z
+cherrypy/cherrypy	2003	open	Fix Sensitive Data Exposure: Set `umask` to default value after use		2023-10-19T08:36:23Z
+asciidoc-py/asciidoc-py	270	open	Replaced `mktemp` with a safer API `mkstemp`		2023-10-17T07:40:26Z
+buffer/thug	359	closed	Fix sensitive data exposure: Change access to `thug-profiler.log` file		2023-12-08T11:30:15Z
+trigger/trigger	336	open	Introduce a safer SMTP alternative: SMTP_SSL (Weak Cryptography Issue)		2023-10-16T08:06:44Z
+SciTools/iris	5544	merged	Replaced `NotImplementedError` with `NotImplemented`		2023-10-17T13:06:13Z
+trigger/trigger	335	open	Fixed Improper Method Call: Replaced `mktemp`		2023-11-13T09:42:45Z
+google/timesketch	2940	merged	SSL/TLS support and authentication for SMTP		2023-10-25T10:10:14Z
+Azure/azure-linux-extensions	1816	merged	Fixed an improper method call		2023-10-16T16:56:49Z
+ReactionMechanismGenerator/RMG-Py	2555	merged	FIX: Updated logical expression to remove short circuit		2023-10-09T23:17:38Z
+custom-components/ble_monitor	1250	merged	FIX: Updated expression to fix logical short circuit		2023-10-09T13:46:37Z
+django-helpdesk/django-helpdesk	1120	merged	Fixed Sensitive Data Exposure (File permission in attachments)		2023-10-13T09:41:25Z
+jschneier/django-storages	1320	merged	Feature: Added support for FTP_TLS (Weak Cryptography Issue)		2023-10-19T00:00:08Z
+equinor/ert	6236	closed	Enable HTML autoescape feature in `template_render.py`		2024-08-08T06:30:12Z
+PaddlePaddle/PaddleSpeech	3538	merged	Fixed implementation of a special method	S2T, Audio, contributor	2024-03-04T02:55:39Z
+cupy/cupy	7900	merged	Fixed Improper Method Call: Replaced `NotImplementedError` with `NotImplemented`	cat:bug, prio:medium	2023-10-17T04:47:08Z
+celery/billiard	394	merged	FIX: Replaced mktemp usage for PY2 with Python 3 ones.		2023-11-05T09:12:04Z
+blaze/blaze	1697	open	Remove undefined names		2023-09-29T10:03:57Z
+opps/opps	516	open	Removed csrf_exempt from views.py		2023-09-29T06:45:50Z
+opps/opps	515	closed	Fix Security Misconfiguration Issues-1		2023-09-29T06:41:11Z
+python/cpython	109318	closed	gh-109317: Replaced `mktemp` with `mkstemp`	awaiting review	2023-09-12T13:55:49Z
+sympy/sympy	25650	merged	Fixed Inappropriate Logic and Security Misconfiguration		2023-09-08T21:44:57Z
+sympy/sympy	25645	merged	Fix an inappropriate test expression to remove a logical short circuit		2023-09-07T13:58:11Z
+ckan/ckan	7768	closed	Replacing MD5 hashing algorithm with SHA512		2023-11-10T10:39:37Z
+ethereum/web3.py	3080	merged	Fixed improper method call in `datastructures.py`		2023-08-22T18:27:11Z
+uber/clay	49	open	Added CSRF protection		2023-08-22T05:04:52Z
+jaintapauljp/jpsms.	14	closed	[ TEST PR ]		2023-12-08T12:05:23Z
+jaintapauljp/jpsms.	13	closed	[ TEST PR ]		2023-12-08T12:05:36Z
