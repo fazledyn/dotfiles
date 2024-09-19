@@ -1,13 +1,10 @@
-# Path definitions.
+# Path definitions
 # Add each new PATH in a separate line
 
-# color highlighting for GNU less
-export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
-export LESS=' -R '
+# for less syntax-highlighting
+export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
+export LESS=' -R'
 
-# terminal colors
-export TERM=xterm-256color
-
-# PATH="$PATH:/location"
-# PATH="$PATH:/location"
-
+if [[ -z "$TMUX" ]]; then
+    # PATH="$PATH:/location"
+fi
