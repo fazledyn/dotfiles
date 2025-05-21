@@ -9,13 +9,19 @@ import = [
 #    "~/.config/alacritty/themes/themes/enfocado_dark.toml"
 ]
 
+[shell]
+#program = "/bin/bash"
+program = "/usr/bin/zsh"
+
 [env]
 TERM = "xterm-256color"
 
 [window]
 decorations = "Full"
 dynamic_padding = false
-opacity = 0.99
+opacity = 1.0
+title = "Alacritty"
+dynamic_title = false
 
 [window.position]
 x = 500
@@ -26,29 +32,21 @@ columns = 90
 lines = 25
 
 [window.padding]
-x = 8
-y = 8
+x = 7
+y = 7
 
 [font]
-size = 12.0
+size = 11
 
 [font.normal]
-#family = "JetBrainsMonoNerdFont"
-family = "MesloLGM Nerd Font Mono"
-style = "Medium"
+family = "JetBrainsMonoNL Nerd Font Mono"
+# family = "MesloLGM Nerd Font Mono"
+# family = "Hack Nerd Font Mono"
+style = "Regular"
 
 [font.bold]
-#family = "JetBrainsMonoNerdFont"
-family = "MesloLGM Nerd Font Mono"
-style = "Heavy"
-
-[font.bold_italic]
-#family = "JetBrainsMonoNerdFont"
-family = "MesloLGM Nerd Font Mono"
-style = "Heavy Italic"
-
-[font.italic]
-#family = "JetBrainsMonoNerdFont"
-family = "MesloLGM Nerd Font Mono"
-style = "Medium Italic"
+family = "JetBrainsMonoNL Nerd Font Mono"
+# family = "MesloLGM Nerd Font Mono"
+# family = "Hack Nerd Font Mono"
+style = "Bold"
 
