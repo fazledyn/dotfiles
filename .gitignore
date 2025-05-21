@@ -1,0 +1,14 @@
+*.csv
+*.log
+*.txt
+*.pyc
+
+logs/
+log/
+
+temp/
+tmp/
+
+node_modules/
+site-packages/
+
