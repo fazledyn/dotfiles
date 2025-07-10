@@ -1,0 +1,43 @@
+# ~/.config/git/config
+
+[init]
+  defaultBranch = master
+
+[user]
+  name = Ataf Fazledin Ahamed
+  email = rabidahamed@gmail.com
+
+[push]
+  autoSetupRemote = true
+  default = current
+  followTags = true
+
+[pull]
+  default = current
+  rebase = true
+
+[status]
+  branch = true
+  showStash = true
+  showUntrackedFiles = all
+
+[diff]
+  context = 5
+  renames = copies
+  interHunkContext = 10
+
+[core]
+  compression = 9
+  whitespace = error
+  preloadindex = true
+
+[advice]
+  addEmptyPathspec = false
+  pushNonFastForward = false
+  statusHints = false
+
+[url "git@github.com:"]
+  insteadOf = "gh:"
+
+[url "git@github.com:fazledyn/"]
+  insteadOf = "fazledyn:"

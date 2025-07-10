@@ -1,0 +1,13 @@
+# 
+# Write commit messages following the format below
+#
+# <scope>: <action> <rest of message>
+#
+# Write a descriptive commit message description that can
+# be used to understand the commit reason better. This will
+# also help developers understand the reasoning and thought
+# process behing writing a commit and related changes.
+#
+#  scope  = repo | service | web | cli | docs
+#  action = fix | refactor | update | format | etc.
+#
