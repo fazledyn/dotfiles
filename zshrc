@@ -107,19 +107,14 @@ source $ZSH/oh-my-zsh.sh
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/.zsh_aliases ]; then
+    . ~/.zsh_aliases
 fi
 
 # Path Definitions.
 # A simple and convenient way to manage paths locally
-if [ -f ~/.bash_path ]; then
-    . ~/.bash_path
-fi
-
-# temp
-if [ -f ~/.machine_alias ]; then
-    . ~/.machine_alias
+if [ -f ~/.zsh_path ]; then
+    . ~/.zsh_path
 fi
 
 # Start Tmux
