@@ -1,10 +1,6 @@
 # Path definitions
 # Add each new PATH in a separate line
 
-# for less syntax-highlighting
-export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
-export LESS=' -R'
-
 if [[ -z "$TMUX" ]]; then
     # PATH="$PATH:/location"
 fi
