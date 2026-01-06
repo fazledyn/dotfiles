@@ -1,0 +1,42 @@
+# Alias definitions.
+# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+
+# ls
+alias ll='ls -la'
+alias la='ls -A'
+alias l='ls -CF'
+
+# git
+# inspiration: https://www.youtube.com/watch?v=G3NJzFX6XhY
+alias ga="git add"
+alias gb="git branch"
+alias gc="git commit"
+alias gcl="git clone"
+alias gd="git diff"
+alias gl="git log"
+alias gs="git status --short"
+alias gps="git push"
+alias gpl="git pull"
+
+# docker
+alias docker=podman
+alias dc="docker compose"
+alias de="docker exec -it"
+alias di="docker images"
+alias dl="docker logs"
+alias dp="docker ps -a"
+
+# tools
+alias cls='clear'
+alias cmd='gnome-terminal'
+alias psa='ps -a'
+alias e='exit'
+
+# Others
+alias warp='warp-cli'
+alias less='less -N'
+alias tmx='tmux'
+
+# commands
+alias hgrep='history | grep'
+alias pyenv='source ~/.local/env/bin/activate'

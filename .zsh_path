@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# prefix paths (SHOULD COME BEFORE ANYTHING)
+PATH="/opt/homebrew/Cellar/nano/8.7/bin:$PATH"
+
+# suffix paths
+PATH="$PATH:/opt/codeql"
+PATH="$PATH:/Users/ataf/go/bin"
+PATH="$PATH:/Library/Frameworks/Python.framework/Versions/3.13/bin"
+PATH="$PATH:/Library/Frameworks/Python.framework/Versions/3.14/bin"
+PATH="$PATH:/Users/ataf/Applications/VSCode.app/Contents/Resources/app/bin"
+
+# exports
+export JAVA_HOME="/opt/homebrew/Cellar/openjdk/25.0.1"
