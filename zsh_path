@@ -1,6 +1,0 @@
-# Path definitions
-# Add each new PATH in a separate line
-
-if [[ -z "$TMUX" ]]; then
-    # PATH="$PATH:/location"
-fi
