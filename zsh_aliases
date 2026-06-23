@@ -39,3 +39,4 @@ alias bat='batcat'
 # commands
 alias hgrep='history | grep'
 alias pyenv='source ~/.local/env/bin/activate'
+
