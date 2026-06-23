@@ -1,10 +1,9 @@
-# Alias definitions.
-# See /usr/share/doc/bash-doc/examples in the bash-doc package.
+#!/bin/bash
 
 # ls
-alias ll='ls -la'
-alias la='ls -A'
-alias l='ls -CF'
+alias ll="ls -la"
+alias la="ls -A"
+alias l="ls -CF"
 
 # git
 # inspiration: https://www.youtube.com/watch?v=G3NJzFX6XhY
@@ -19,7 +18,6 @@ alias gps="git push"
 alias gpl="git pull"
 
 # docker
-alias docker=podman
 alias dc="docker compose"
 alias de="docker exec -it"
 alias di="docker images"
@@ -36,6 +34,7 @@ alias e='exit'
 alias warp='warp-cli'
 alias less='less -N'
 alias tmx='tmux'
+alias bat='batcat'
 
 # commands
 alias hgrep='history | grep'

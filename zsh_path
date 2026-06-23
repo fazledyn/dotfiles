@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# prefix paths
+PATH="/dir:$PATH"
+
+# suffix paths
+PATH="$PATH:/dir"
+
+# exports
+export FOO="bar"
