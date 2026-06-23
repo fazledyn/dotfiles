@@ -6,5 +6,8 @@ PATH="/dir:$PATH"
 # suffix paths
 PATH="$PATH:/dir"
 
-# exports
-export FOO="bar"
+# tools
+export SDKMAN_DIR="$HOME/.sdkman"
+export NVM_DIR="$HOME/.nvm"
+# machines
+export GOOGLE="fazledyn@35.245.156.196"

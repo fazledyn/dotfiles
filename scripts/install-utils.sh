@@ -9,7 +9,7 @@ set -euo pipefail
 # Packages common to both platforms. Platform-specific extras are added below.
 COMMON_PACKAGES=(
   jq fastfetch htop zip unzip tar wget curl git zsh
-  screen tmux tree ncdu fzf ripgrep bat
+  screen tmux tree ncdu fzf ripgrep bat python3
 )
 
 install_debian() {
@@ -21,8 +21,10 @@ install_debian() {
   #   p7zip-full      provides the 7z binary
   #   openssh-client  provides ssh
   #   dnsutils        provides dig
+  #   python3-*       venv, virtualenv and pip for Python 3
   local packages=("${COMMON_PACKAGES[@]}")
   packages+=(p7zip-full binutils openssh-client dnsutils)
+  packages+=(python3-venv python3-virtualenv python3-pip)
 
   sudo apt-get install -y "${packages[@]}"
 }
@@ -39,8 +41,9 @@ install_macos() {
   brew update
 
   # macOS already ships ssh, dig and binutils; 7-zip is left out (the p7zip
-  # formula is deprecated). So the common list is all we need here.
-  brew install "${COMMON_PACKAGES[@]}"
+  # formula is deprecated). Homebrew's python3 bundles pip and venv, so only
+  # virtualenv is added on top of the common list.
+  brew install "${COMMON_PACKAGES[@]}" virtualenv
 }
 
 # Dispatch based on the operating system.
@@ -80,5 +83,27 @@ install_oh_my_zsh() {
 }
 
 install_oh_my_zsh
+
+# Install NVM (Node Version Manager). NVM_DIR is exported in zsh_path and my
+# zshrc already sources nvm, so we tell the installer not to touch any rc files.
+install_nvm() {
+  if [[ -d "${NVM_DIR:-$HOME/.nvm}" ]]; then
+    echo ">> NVM already installed, skipping."
+    return
+  fi
+  echo ">> Installing NVM..."
+
+  # Resolve the latest release tag, falling back to a known version.
+  local version
+  version="$(curl -fsSL https://api.github.com/repos/nvm-sh/nvm/releases/latest \
+    | grep -oE '"tag_name": *"v[0-9.]+"' | grep -oE 'v[0-9.]+' || true)"
+  version="${version:-v0.40.1}"
+
+  # PROFILE=/dev/null stops the installer from editing our shell rc files.
+  curl -o- "https://raw.githubusercontent.com/nvm-sh/nvm/${version}/install.sh" \
+    | PROFILE=/dev/null bash
+}
+
+install_nvm
 
 echo ">> Done."
