@@ -9,7 +9,9 @@
 # The exact patch version for each major is resolved at runtime from
 # `sdk list java`, so this keeps working as new patches are published.
 
-set -euo pipefail
+# Note: no `set -u` here. SDKMAN's init and functions reference unbound
+# variables, which would abort the script under nounset.
+set -eo pipefail
 
 # Major versions to install, and the distribution to take them all from.
 JAVA_VERSIONS=(7 8 11 13 17 21 23 25)
