@@ -1,9 +1,10 @@
 #!/usr/bin/env bash
 #
-# link.sh - Symlink the dotfiles in this repo to their real locations.
+# link.sh - Copy the dotfiles in this repo to their real locations.
 #
-# Existing files/links at the target are backed up to "<target>.bak" before a
-# new symlink is created. Run from anywhere; paths are resolved automatically.
+# This is a one-way copy (repo -> machine). Existing files at the target are
+# backed up to "<target>.bak" before being overwritten. Run from anywhere;
+# paths are resolved automatically.
 
 set -euo pipefail
 
@@ -35,9 +36,9 @@ for entry in "${LINKS[@]}"; do
     continue
   fi
 
-  # Already linked to the right place? Nothing to do.
-  if [[ "$(readlink "$target_path" 2>/dev/null)" == "$source_path" ]]; then
-    echo "== Already linked: $target_path"
+  # Already identical? Nothing to do.
+  if cmp -s "$source_path" "$target_path"; then
+    echo "== Already up to date: $target_path"
     continue
   fi
 
@@ -50,8 +51,8 @@ for entry in "${LINKS[@]}"; do
     mv "$target_path" "$target_path.bak"
   fi
 
-  ln -s "$source_path" "$target_path"
-  echo ">> Linked: $target_path -> $source_path"
+  cp "$source_path" "$target_path"
+  echo ">> Copied: $source_path -> $target_path"
 done
 
 echo ">> Done."
