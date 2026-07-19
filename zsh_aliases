@@ -23,12 +23,14 @@ alias de="docker exec -it"
 alias di="docker images"
 alias dk="docker kill"
 alias dl="docker logs"
+alias dk="docker kill"
 alias dp="docker ps -a"
 
 # tools
 alias cls='clear'
 alias cmd='gnome-terminal'
 alias psa='ps -a'
+alias nf='fastfetch||neofetch'
 alias e='exit'
 
 # Others
@@ -39,5 +41,4 @@ alias bat='batcat'
 
 # commands
 alias hgrep='history | grep'
-alias pyenv='source ~/.local/env/bin/activate'
-
+alias pyenv='source $HOME/.local/env/bin/activate'

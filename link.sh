@@ -20,10 +20,10 @@ LINKS=(
   "nanorc:.nanorc"
   "screenrc:.screenrc"
   "nvim.init.lua:.config/nvim/init.lua"
-  "alacritty.toml:.config/alacritty/alacritty.toml"
   "config/git/config:.config/git/config"
   "config/git/template:.config/git/template"
   "config/tmux/tmux.conf:.config/tmux/tmux.conf"
+  "config/alacritty/alacritty.toml:.config/alacritty/alacritty.toml"
 )
 
 for entry in "${LINKS[@]}"; do

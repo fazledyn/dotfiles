@@ -1,13 +1,16 @@
 #!/bin/bash
 
 # prefix paths
-PATH="/dir:$PATH"
+# PATH="/dir:$PATH"
 
 # suffix paths
-PATH="$PATH:/dir"
+# PATH="$PATH:/dir"
+PATH="$PATH:/opt/codeql"
+PATH="$PATH:/opt/maven/bin"
+PATH="$PATH:$HOME/.local/bin"
 
 # tools
-export SDKMAN_DIR="$HOME/.sdkman"
 export NVM_DIR="$HOME/.nvm"
+export SDKMAN_DIR="$HOME/.sdkman"
+
 # machines
-export GOOGLE="fazledyn@35.245.156.196"
