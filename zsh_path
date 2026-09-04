@@ -6,6 +6,7 @@
 # suffix paths
 # PATH="$PATH:/dir"
 PATH="$PATH:/opt/codeql"
+PATH="$PATH:/opt/node/bin"
 PATH="$PATH:/opt/maven/bin"
 PATH="$PATH:$HOME/.local/bin"
 
@@ -14,3 +15,6 @@ export NVM_DIR="$HOME/.nvm"
 export SDKMAN_DIR="$HOME/.sdkman"
 
 # machines
+export ZEUS="aahamed@zeus.cec.gmu.edu"
+export EXOSPHERE="aahamed@129.174.189.8"
+export HOPPER="aahamed@hopper.orc.gmu.edu"
