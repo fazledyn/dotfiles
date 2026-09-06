@@ -1,0 +1,12 @@
+# Custom Machine Alias
+# : ${MACHINE_ALIAS:=$(hostname -s)}
+
+# Colored Prompt Format:
+# %F{green}%n%f = green username
+# %F{cyan}$MACHINE_ALIAS%f = cyan machine alias
+# %F{yellow}%d%f = yellow current directory path
+# %F{magenta}%#%f = magenta prompt symbol (% or #)
+
+MACHINE_ALIAS="exosphere"
+PROMPT='%F{green}%n%f@%F{cyan}$MACHINE_ALIAS%f:%F{yellow}%d%f %F{magenta}$%f '
+
